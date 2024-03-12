@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "cover": "https://r2.easyimg.io/icd02o2go/3860811.jpg",
+        "title": "The Great Adventure",
+        "author": "John Doe",
+        "author_img": "https://r2.easyimg.io/bpvl26zpe/boy1.png",
+        "posted_date": "2024-03-13",
+        "reading_time": 20,
+        "hashtags": ["adventure", "fiction", "exciting"]
+    },
+    {
+        "id": 2,
+        "cover": "https://r2.easyimg.io/shgk1xtq9/2111.w023.n001.1425b.p1.1425.jpg",
+        "title": "Mystery at Midnight",
+        "author": "Jane Smith",
+        "author_img": "https://r2.easyimg.io/sjtiiad4b/girl1.jpg",
+        "posted_date": "2024-03-12",
+        "reading_time": 25,
+        "hashtags": ["mystery", "thriller", "suspense"]
+    },
+    {
+        "id": 3,
+        "cover": "https://r2.easyimg.io/p3bnsvdtp/7794674.jpg",
+        "title": "Cooking with Passion",
+        "author": "Alice Johnson",
+        "author_img": "https://r2.easyimg.io/u6tji2grf/profile.png",
+        "posted_date": "2024-03-11",
+        "reading_time": 15,
+        "hashtags": ["cooking", "recipes", "food"]
+    },
+    {
+        "id": 4,
+        "cover": "https://r2.easyimg.io/80z5dps6h/70z_2108.w023.n001.841b.p1.841.jpg",
+        "title": "Exploring the Cosmos",
+        "author": "David Chang",
+        "author_img": "https://r2.easyimg.io/748tghvef/boy2.png",
+        "posted_date": "2024-03-10",
+        "reading_time": 30,
+        "hashtags": ["space", "science", "astronomy"]
+    },
+    {
+        "id": 5,
+        "cover": "https://r2.easyimg.io/8fj046k67/programming-script-text-coding-word.jpg",
+        "title": "Learning Python: A Beginner's Guide",
+        "author": "Emily White",
+        "author_img": "https://r2.easyimg.io/0bd0izdd7/girl2.jpg",
+        "posted_date": "2024-03-09",
+        "reading_time": 40,
+        "hashtags": ["python", "programming", "beginners"]
+    }
+]
