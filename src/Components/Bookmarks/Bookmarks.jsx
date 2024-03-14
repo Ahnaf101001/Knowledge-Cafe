@@ -3,7 +3,7 @@ import Bookmark from '../Bookmark/Bookmark';
 
 const Bookmarks = ({bookmarks, readingTime}) => {
     return (
-        <div className="md:w-1/3 bg-gray-300">
+        <div className="md:w-1/3 bg-gray-300 p-[30px]">
             <div>
                 <h3 className="text-4xl">Reading Time: {readingTime}</h3>
             </div>
@@ -16,7 +16,8 @@ const Bookmarks = ({bookmarks, readingTime}) => {
 };
 
 Bookmarks.propTypes = {
-    bookmarks: PropTypes.array
+    bookmarks: PropTypes.array,
+    readingTime: PropTypes.number
 }
 
 export default Bookmarks;

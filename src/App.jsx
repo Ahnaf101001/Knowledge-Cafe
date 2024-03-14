@@ -9,7 +9,7 @@ function App() {
   const [bookmarks, setBookmarks] = useState([]);
   const [readingTime, setReadingTime] = useState(0)
 
-  const handleAddToBookmarks = blog =>{
+  const handleAddToBookmark = blog =>{
     const newBookmarks = [...bookmarks,blog];
     setBookmarks(newBookmarks);
   }
@@ -25,7 +25,7 @@ function App() {
       <Header></Header>
       <hr className='mt-[32px] mb-[32px] lg:w-[1660px] m-auto' />
       <main className='lg:w-[1660px] m-auto lg:flex justify-between'>
-      <Blogs handleAddToBookmarks={handleAddToBookmarks} handleMarkAsRead={handleMarkAsRead}></Blogs>
+      <Blogs handleAddToBookmark={handleAddToBookmark} handleMarkAsRead={handleMarkAsRead}></Blogs>
       <Bookmarks bookmarks={bookmarks} readingTime={readingTime}></Bookmarks>
       </main>
       </div>

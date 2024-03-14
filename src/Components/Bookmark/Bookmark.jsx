@@ -5,7 +5,7 @@ const Bookmark = ({bookmark}) => {
     const {title} = bookmark;
 
     return (
-        <div className='bg-slate-200 mt-[16px] mb-[16px]'>
+        <div className='bg-white mt-[16px] mb-[16px] rounded-xl w-max-full m-auto flex items-center p-[20px]'>
             <h3 className='text-2xl'>{title}</h3>
         </div>
     );

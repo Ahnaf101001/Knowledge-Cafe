@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import 'boxicons'
 
-const Blog = ({blog, handleAddToBookmarks, handleMarkAsRead}) => {
+const Blog = ({blog, handleAddToBookmark, handleMarkAsRead}) => {
     const {title, cover, author, author_img, reading_time, posted_date, hashtags} = blog;
     return (
         <div className='mb-[40px]'>
@@ -16,7 +16,7 @@ const Blog = ({blog, handleAddToBookmarks, handleMarkAsRead}) => {
                 </div>
                 <div className='flex items-center gap-[8px]'>
                     <span>{reading_time} min read </span>
-                    <button onClick={() => handleAddToBookmarks(blog)}><box-icon name='bookmark'></box-icon></button>
+                    <button onClick={() => handleAddToBookmark(blog)}><box-icon name='bookmark'></box-icon></button>
                 </div>
             </div>
             <h2 className="text-4xl mb-[16px]">{title}</h2>
@@ -36,7 +36,7 @@ const Blog = ({blog, handleAddToBookmarks, handleMarkAsRead}) => {
 
 Blog.propTypes = {
     blog: PropTypes.object.isRequired,
-    handleAddToBookmarks: PropTypes.func,
+    handleAddToBookmark: PropTypes.func,
     handleMarkAsRead: PropTypes.func
 }
 
